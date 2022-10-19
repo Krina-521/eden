@@ -1,6 +1,7 @@
 import React from "react";
 import "./congo.css";
 import { RiCheckboxCircleFill } from "react-icons/ri";
+import Header from "./Header";
 
 const Congo = ({ props }) => {
   // const nextPage = () => props(true);
@@ -8,12 +9,10 @@ const Congo = ({ props }) => {
     <div className="congo-page">
       <div className="congo-container">
         <RiCheckboxCircleFill className="check-icon" />
-        <div className="heading-cluster">
-          <h1 className="heading"> Congratulations, Eren!</h1>
-          <h3 className="subHeading">
-            You have completed onboarding, you can start using the Eden!
-          </h3>
-        </div>
+        <Header
+          mainHeading="Congratulations, Eren!"
+          subHeading="You have completed onboarding, you can start using the Eden!"
+        />
       </div>
     </div>
   );

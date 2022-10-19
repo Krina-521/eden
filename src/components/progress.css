@@ -1,0 +1,30 @@
+.logo {
+  margin-top: -2rem;
+}
+.round-page-numbers {
+  /* To make the buttons round */
+  border-radius: 100%;
+  background-color: #fff;
+
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--light-grey);
+  transition: all 0.5s ease-in;
+}
+.progress-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.load-page {
+  /* loading transition style with color and bg color change*/
+  background-color: var(--purple-color);
+  color: #fff;
+}
+.space-between-rounds {
+  border: 1px solid var(--light-grey);
+  width: 4rem;
+  height: 0px;
+}

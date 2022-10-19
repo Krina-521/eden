@@ -12,29 +12,6 @@
 }
 .check-icon {
   font-size: 5rem;
-  color: #664ce4;
+  color: var(--purple-color);
   margin: 4rem 0 2rem 12rem;
-}
-.heading-cluster {
-  display: flex;
-  flex-direction: column;
-}
-.heading {
-  font-size: 1.7rem;
-  text-align: center;
-  font-weight: bolder;
-  margin-bottom: 0.8rem;
-}
-.subHeading {
-  font-size: 1rem;
-  text-align: center;
-  color: grey;
-  margin-bottom: 2rem;
-}
-.create-workspace {
-  font-size: 1rem;
-  background-color: #664ce4;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
 }
