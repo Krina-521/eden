@@ -1,10 +1,7 @@
 import React from "react";
 import "./progress.css";
 
-// const logo = "./images/eden-logo.png";
-
 const Progress = ({ currentIndex }) => {
-  /* <img src={logo} alt="Eden Logo" className="logo container-fluid"></img> */
   return (
     <div className="progress-buttons">
       <button

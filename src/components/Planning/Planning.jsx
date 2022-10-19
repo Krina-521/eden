@@ -2,11 +2,9 @@ import React from "react";
 import "./planning.css";
 import { RiUserFill } from "react-icons/ri";
 import { RiTeamFill } from "react-icons/ri";
-import Header from "./Header";
+import Header from "../Header/Header";
 
-const Planning = ({ props }) => {
-  // const nextPage = () => props(true);
-
+const Planning = () => {
   const handleOnClick = (event) => {
     const currentClickCard = event.target.id;
     const otherCard =

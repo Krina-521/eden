@@ -1,0 +1,45 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90%;
+}
+.inputfield-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: rgb(73, 73, 73);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+.prefix-text {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--light-grey);
+  background-color: #eef3f4;
+  color: grey;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.inputfield-input {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--light-grey);
+
+  border-radius: 5px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.optional-label {
+  color: grey !important;
+}

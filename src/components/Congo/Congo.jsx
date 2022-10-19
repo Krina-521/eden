@@ -1,10 +1,9 @@
 import React from "react";
 import "./congo.css";
 import { RiCheckboxCircleFill } from "react-icons/ri";
-import Header from "./Header";
+import Header from "../Header/Header";
 
-const Congo = ({ props }) => {
-  // const nextPage = () => props(true);
+const Congo = () => {
   return (
     <div className="congo-page">
       <div className="congo-container">

@@ -1,11 +1,11 @@
 import "./App.css";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import NameWorkspace from "./components/Name_Workspace";
-import Progress from "./components/Progress";
-import Planning from "./components/Planning";
-import Congo from "./components/Congo";
-import Name from "./components/Name";
-import Workspace from "./components/Workspace";
+import Progress from "./components/Progress/Progress";
+import Planning from "./components/Planning/Planning";
+import Congo from "./components/Congo/Congo";
+import Name from "./components/Name/Name";
+import Workspace from "./components/WorkSpace/Workspace";
 import React, { useState } from "react";
 
 export const Details = React.createContext();
@@ -14,9 +14,11 @@ const logo = "./images/eden-logo.png";
 function App() {
   const [next, setNext] = useState(0);
 
-  const updateNext = () => {
-    console.log("Updating next value");
-    setNext(next + 1);
+  const handleOnClick = () => {
+    if (next < 3) {
+      console.log("Updating next value");
+      setNext(next + 1);
+    }
   };
 
   return (
@@ -34,13 +36,7 @@ function App() {
           <Congo />
         )}
       </div>
-      <button
-        type=""
-        className="create-workspace"
-        onClick={() => {
-          updateNext();
-        }}
-      >
+      <button type="" className="create-workspace" onClick={handleOnClick}>
         {next > 2 ? "Launch Eden" : "Create workspace"}
       </button>
     </div>
