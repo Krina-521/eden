@@ -1,0 +1,73 @@
+.Second-page {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 25rem;
+  margin-left: 2rem; */
+}
+.heading-cluster {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 0.8rem;
+}
+.subHeading {
+  font-size: 1rem;
+  text-align: center;
+  color: grey;
+  margin-bottom: 2rem;
+}
+.input-form {
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  margin-left: 2rem;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0.2rem;
+}
+.workSpaceName-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: rgb(73, 73, 73);
+}
+.workSpaceName-input {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(194, 194, 194, 0.627);
+  border-radius: 5px;
+}
+
+.workSpaceURL-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: rgb(73, 73, 73);
+}
+.optional {
+  color: grey !important;
+}
+.workSpaceURL-input {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(194, 194, 194, 0.627);
+  border-radius: 5px;
+}
+.create-workspace {
+  font-size: 1rem;
+  background-color: #664ce4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
