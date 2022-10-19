@@ -1,0 +1,16 @@
+.heading-cluster {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 0.8rem;
+}
+.subHeading {
+  font-size: 1rem;
+  text-align: center;
+  color: grey;
+  margin-bottom: 2rem;
+}

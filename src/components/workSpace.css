@@ -1,0 +1,62 @@
+.Second-page {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* width: 25rem;
+  margin-left: 2rem; */
+}
+
+.workspace-input-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-content: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 90%;
+}
+.workSpaceName-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: rgb(73, 73, 73);
+}
+.workSpaceName-input {
+  font-size: 0.8rem;
+  color: var(--light-grey) !important;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.workSpaceURL-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: rgb(73, 73, 73);
+}
+.optional {
+  color: grey !important;
+}
+.workSpaceURL-input {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+  width: 69%;
+}
+.workSpaceURL-span {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+  width: fit-content;
+}
